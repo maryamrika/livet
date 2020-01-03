@@ -1,0 +1,22 @@
+.footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    z-index: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    background-color: #F4F4F4;
+    height: 50px;
+    img{
+        width: 35px;
+    }
+    p{
+        padding-top: 5px;
+        font-size: 11px;
+        padding-right: 10px;
+        color: $gray;
+    }
+}

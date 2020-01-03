@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.501 20">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #75b94e;
+      }
+
+      .cls-1 {
+        font-size: 9px;
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Group_25936" data-name="Group 25936" transform="translate(-1320.75 -229)">
+    <g id="Group_25918" data-name="Group 25918">
+      <text id="A_Z" data-name="A
+Z" class="cls-1" transform="translate(1320.75 236)"><tspan x="0" y="0">A</tspan><tspan x="0" y="11">Z</tspan></text>
+      <g id="download" transform="translate(1329.246 230)">
+        <g id="Group_25914" data-name="Group 25914" transform="translate(0)">
+          <g id="Group_25913" data-name="Group 25913">
+            <path id="Path_3958" data-name="Path 3958" class="cls-2" d="M134.964,11.024c-.071-.271-.227-.443-.4-.443h-1.751V.756c0-.417-.2-.756-.438-.756h-1.751c-.242,0-.438.339-.438.756v9.826h-1.751c-.172,0-.327.174-.4.443a1.206,1.206,0,0,0,.069.81l3.065,6.047a.339.339,0,0,0,.659,0l3.065-6.047A1.205,1.205,0,0,0,134.964,11.024Z" transform="translate(-127.998)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+@import "../../../../styles/variables";
+
+.tab-customer-dashboard {
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid $green-75;
+  color: $grey-5d;
+  width: 100%;
+  display: block;
+  line-height: 37px;
+  height: 37px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  &--active,
+  &:hover {
+    background-color: $green-75;
+    border: 1px solid $green-28;
+    color: $green-28;
+  }
+}

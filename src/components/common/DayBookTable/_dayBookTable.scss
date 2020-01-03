@@ -1,0 +1,11 @@
+@import "../../../styles/variables";
+
+.day-book-table {
+  &__popover {
+    button {
+      &:hover {
+        background-color: darken($grey-f0, 10);
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+
+// libraries
+@import "bootstrap/scss/bootstrap.scss";
+
+// base
+@import "variables";
+@import "utils/typography";
+@import "base";
+@import "overrides";
+@import "extends";
+@import "animations";
+@import "utils/utils";
+
+// utils
+@import "utils/icons";
+@import "utils/form";
+@import "utils/button";
+@import "utils/colors";
+@import "utils/font";
+@import "utils/line-height";
+
+// themes
+@import "themes/colors";
+
+// components
+@import "components/header";
+@import "components/sidebar";
+@import "components/content";
+@import "components/footer";
+@import "components/calendar";
+//pages
+@import "pages/login";
+@import "pages/dashboard";
+@import "pages/customer-dashboard";
+@import "pages/product-search";

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 3.937">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bebebe;
+      }
+    </style>
+  </defs>
+  <path id="caret-down" class="cls-1" d="M391,640.437a.421.421,0,0,1-.13.308l-3.063,3.062a.429.429,0,0,1-.615,0l-3.062-3.062a.437.437,0,0,1,.308-.745h6.125a.443.443,0,0,1,.438.437Z" transform="translate(-384 -640)"/>
+</svg>

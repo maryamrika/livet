@@ -1,0 +1,13 @@
+@import "../../../styles/variables";
+
+.action-bar {
+  &__input-wrapper {
+    height: 27px;
+  }
+  &__input-blank {
+    height: 27px !important;
+  }
+  .select-with-icon__icon{
+    border-left: 1px solid $grey-5d;
+  }
+}

@@ -1,0 +1,80 @@
+.calendar-wrapper{
+  .btn-secondary{
+    background-color:#fff !important;
+    color:#000 !important;
+    border: none;
+    box-shadow: none;
+  }
+  .calendar{
+      background: $lightGray;    
+      min-width: 900px;
+      box-shadow: 0 1px 7px 0px #c3c3c3;
+      position: absolute;
+      right: 0;
+      z-index: 3;
+      border-radius: 5px 0 5px 5px;
+      display: flex;
+      padding: 15px;
+     
+      &--border{
+          display:flex;
+      }
+      &--box{
+          background-color: #fff;
+          display:flex;
+          width:1000px;
+          height:500px;
+          z-index:9999;
+          .dayPicker{
+              z-index:9999;
+          }
+      }
+      .DayPicker{
+        padding:0 30px;
+          .DayPicker-wrapper{
+            box-shadow: 0px 8px 17px -3px #ccc;
+            background-color: $white;
+          }
+      }
+      .DayPicker-Months{
+        border-radius: 3px;
+      }
+      .DayPicker-Month{
+        margin: 0;
+      }
+      .DayPicker-NavButton{
+        top: 5px;
+        right: 5px;
+      }
+      .DayPicker-Caption{
+        background-color: $paleGreen;
+        color: $darkGreen;
+        text-align: center;
+        border-radius: 3px 3px 0 0;
+        > div{
+          font-size: 1em;
+          padding: 5px;
+        }
+      }
+      .customRange{
+        width: 30%;
+      }
+      .final-selected-day{
+        padding:5px;
+        border:1px solid $green;
+        border-radius: 5px;
+        margin:10px 0;
+        &:hover{
+          -webkit-box-shadow: 0px 0px 14px 0px $green;
+          -moz-box-shadow: 0px 0px 14px 0px $green;
+          box-shadow: 0px 0px 14px 0px $green;
+        }
+      }
+  }
+}
+.day-book-search{
+  .input-wrapper{
+    position: relative;
+    overflow: visible;
+  }
+}

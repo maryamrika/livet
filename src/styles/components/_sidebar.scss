@@ -1,0 +1,45 @@
+.cr-sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 4;
+  padding-top: 125px;
+  background-color: $lightGray;
+  box-shadow: 0 0 2px 0 #BEBEBE;
+  @include media-breakpoint-down(lg) {
+    padding-top: 80px;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .nav {
+    display: block;
+  }
+  .navbar-nav {
+    display: block;
+  }
+  .nav-link {
+    width: 40px;
+    padding: 8px 0;
+    text-align: center;
+  }
+  .btn-secondary:not(:disabled):not(.disabled).active {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  .btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  .nav-item {
+    display: block;
+    border-bottom: 1px solid #bebebe29;
+    .icon::before {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}

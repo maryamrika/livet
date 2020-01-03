@@ -1,0 +1,162 @@
+@import "../variables";
+// utils
+.can-click {
+  cursor: pointer;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.hidden-xl {
+  @include media-breakpoint-only(xl) {
+    display: none;
+  }
+}
+
+.hidden-lg {
+  @include media-breakpoint-only(lg) {
+    display: none;
+  }
+}
+
+.hidden-md {
+  @include media-breakpoint-only(md) {
+    display: none;
+  }
+}
+
+.hidden-sm {
+  @include media-breakpoint-only(sm) {
+    display: none;
+  }
+}
+
+.hidden-xs {
+  @include media-breakpoint-only(xs) {
+    display: none;
+  }
+}
+
+.modal-backdrop-light {
+  background: map-get($map: $theme-colors, $key: light);
+  opacity: 1;
+
+  &.modal-backdrop.show {
+    opacity: 1;
+  }
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-gw-yellow {
+  background-color: map-get($map: $theme-colors, $key: gw-yellow);
+}
+
+.bg-gw-green {
+  background-color: map-get($map: $theme-colors, $key: gw-green);
+}
+
+.no-transform {
+  text-transform: none;
+}
+
+.circle {
+  display: inline-block;
+  width: 76px;
+  height: 76px;
+  border: #000 4px solid;
+  border-radius: 50%;
+}
+
+.bg-lighter {
+  background-color: #F2F3FA;
+}
+
+.bg-grey-f0 {
+  background-color: $grey-f0;
+}
+
+.bg-grey-e6 {
+  background-color: $grey-e6 !important;
+}
+
+.placeholder-light {
+  &::placeholder {
+    color: #f2f3fa;
+    opacity: 1; /* Firefox */
+  }
+
+  //noinspection Stylelint
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #f2f3fa;
+  }
+
+  //noinspection Stylelint
+  &::-ms-input-placeholder { /* Microsoft Edge */
+    color: #f2f3fa;
+  }
+}
+
+.btn-none {
+  //noinspection Stylelint
+  &:focus,
+  &:focus:active {
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-decoration-underline-hover {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.border-grey {
+  border-color: #EBEBEB;
+}
+
+.number-pad-divider {
+  height: 12px;
+  width: 1px;
+  background-color: $green-75;
+  transform: rotate(25deg);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.white-space-no-wrap {
+  white-space: nowrap;
+}
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.divider {
+  height: 1px;
+  background-color: $grey-5d;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.rounded {
+  &-19 {
+    border-radius: 19px !important;
+  }
+}

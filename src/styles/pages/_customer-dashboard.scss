@@ -1,0 +1,29 @@
+// .cr-customer-dashboard{
+//     padding:0 15px 0 50px;   
+// }
+
+.lbl{
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.search-box{
+    .btn{
+        color: $darkGreen;
+    }
+}
+.hide{
+    display:none !important;
+}
+.sm-label{
+    border-radius: 5px;
+    color:$lightGray;
+    font-size: 10px;
+    width: 75px;
+    text-align: center;
+    display: block;
+    height: 12px;
+    line-height: 12px;
+    float: right;
+    margin-top: 4px;
+}

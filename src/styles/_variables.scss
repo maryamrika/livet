@@ -1,0 +1,46 @@
+$image-path: "../assets/images";
+/* stylelint-disable */
+//colors
+$navy: #1d1d43;
+$green: #7bbc41;
+$green-1: #069263;
+$paleGreen: #B2D5A2;
+$darkGreen: #286E01;
+$red: #FC6D51;
+$red-cb: #CB342C;
+$orange: #E67D21;
+$blue: #4EC0E9;
+$purple: #A3A1FB;
+$gray: #898989;
+$lightGray: #F0F2F8;
+$lightGray-1: #BEBEBE;
+$lightGray-2: #E5E5E5;
+$lightGray-3: #F8F8F8;
+$lightGray-4: #E9E9E9;
+$grey-5d: #5D5D5D;
+$grey-95: #959595;
+$grey-e5: #E5E5E5;
+$grey-f0: #f0f2f8;
+$grey-e6: #E6E6E6;
+$green-28: #286E01;
+$green-77: #77b854;
+$grey-79: #797979;
+$green-75: #75B94E;
+$green-9f: #9FCD84;
+$green-28: #286E01;
+$theme-colors: (
+        "primary": #fff,
+        "secondary": #EDCB3B,
+        "success": #7bbc41,
+        "danger": #CB342C,
+        "warning": #ffd700,
+        "info": #2fb6f3,
+        "gray": #898989,
+        "light-gray": #f7f0f0,
+        "navy": #1d1d43,
+        "green-9f": $green-9f,
+        "white": white,
+        "transparent": transparent
+);
+$remSize: 16;
+

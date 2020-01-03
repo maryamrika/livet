@@ -1,0 +1,16 @@
+@import "../variables";
+
+.color {
+  &--black {
+    color: black !important;
+  }
+  &--white {
+    color: white !important;
+  }
+  &--grey-5d {
+    color: $grey-5d;
+  }
+  &--red-cb {
+    color: $red-cb;
+  }
+}

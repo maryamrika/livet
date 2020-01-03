@@ -1,0 +1,26 @@
+@import "../variables";
+
+.input {
+  &-wrapper {
+    border: 1px solid rgba(149, 149, 149, .3);
+    background-color: rgba(229, 229, 229, .3);
+    width: 100%;
+    border-radius: 5px;
+    overflow-x: hidden;
+    height: 100%;
+  }
+  &-blank {
+    border: none;
+    background-color: transparent;
+  }
+}
+
+.no-border{
+  border: none;
+}
+
+select.input-blank {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  width: calc(100% + 20px);
+}

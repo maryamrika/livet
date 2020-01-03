@@ -1,0 +1,260 @@
+
+.icon {
+  position: relative;
+  display: inline-block;
+  &::before {
+    content: "";
+    display: inline-block;
+    background: no-repeat center;
+    background-size: contain;
+  }
+  &--behind {
+    z-index: -1;
+    position: absolute;
+  }
+  &--file {
+    &::before {
+      background-image: url("#{$image-path}/file-o.svg");
+    }
+  }
+  &--quote {
+    &::before {
+      background-image: url("#{$image-path}/comments-o.svg");
+    }
+  }
+  &--basket {
+    &::before {
+      width: 18px;
+      height: 15.23px;
+      background-image: url("#{$image-path}/shopping-cart.svg");
+    }
+  }
+  &--phone {
+    &::before {
+      width: 35px;
+      height: 35px;
+      background-image: url("#{$image-path}/phone-square.svg");
+    }
+  }
+  &--add-company {
+    &::before {
+      width: 23px;
+      height: 17px;
+      background-image: url("#{$image-path}/id-card-o.svg");
+    }
+  }
+  &--search {
+    &::before {
+      width: 15px;
+      height: 15px;
+      background-image: url("#{$image-path}/search.svg");
+    }
+  }
+  &--search-grey {
+    &::before {
+      width: 10px;
+      height: 10px;
+      background-image: url("#{$image-path}/search-gray.svg");
+    }
+  }
+  &--bookmark {
+    &::before {
+      background-image: url("#{$image-path}/bookmark.svg");
+    }
+  }
+
+  &--calendar {
+    &::before {
+      background-image: url("#{$image-path}/calendar.svg");
+    }
+  }
+  &--user {
+    &::before {
+      background-image: url("#{$image-path}/user-circle-o.svg");
+    }
+  }
+  //////////////////Left sidebar//////////////////
+  &--address-book {
+    &::before {
+      background-image: url("#{$image-path}/address-book-o.svg");
+    }
+  }
+  &--file-text-o {
+    &::before {
+      background-image: url("#{$image-path}/file-text-o.svg");
+    }
+  }
+
+  &--address-card-o {
+    &::before {
+      background-image: url("#{$image-path}/address-card-o.svg");
+    }
+  }
+  &--list {
+    &::before {
+      background-image: url("#{$image-path}/list.svg");
+    }
+  }
+  &--files {
+    &::before {
+      background-image: url("#{$image-path}/files-o.svg");
+    }
+  }
+  &--comments {
+    &::before {
+      background-image: url("#{$image-path}/comments-o.svg");
+    }
+  }
+  &--search-plus {
+    &::before {
+      background-image: url("#{$image-path}/search-plus.svg");
+    }
+  }
+  &--cog {
+    &::before {
+      background-image: url("#{$image-path}/cog.svg");
+    }
+  }
+  &--chevron-down {
+    &::before {
+      width: 13px;
+      height: 8px;
+      background-image: url("#{$image-path}/chevron-down.svg");
+    }
+  }
+  &--sort-ascending {
+    opacity: .5;
+    &::before {
+      width: 16px;
+      height: 20px;
+      background-image: url("#{$image-path}/sort-ascending.svg");
+    }
+  }
+  &--sort-descending {
+    opacity: .5;
+    &::before {
+      width: 16px;
+      height: 20px;
+      background-image: url("#{$image-path}/sort-descending.svg");
+    }
+  }
+  &--caret-down {
+    &::before {
+      width: 20px;
+      height: 11.25px;
+      background-image: url("#{$image-path}/caret-down.svg");
+    }
+  }
+  &--caret-down-grey {
+    &::before {
+      width: 7px;
+      height: 4px;
+      background-image: url("#{$image-path}/caret-down-grey.svg");
+    }
+  }
+  &--active {
+    opacity: 1 !important;
+  }
+
+  //sidebar icons
+  &--daybook {
+    &::before {
+      width: 24.41px;
+      height: 22.51px;
+      background-image: url("#{$image-path}/day-book.svg");
+    }
+    &--active {
+      &::before {
+        background-image: url("#{$image-path}/day-book-active.svg") !important;
+      }
+    }
+  }
+
+  &--deponotes {
+    &::before {
+      background-image: url("#{$image-path}/file-text-o.svg");
+    }
+    // .active{
+    //   &::before{
+    //     background-image: url("#{$image-path}/file-text-o-green.svg");
+    //   }
+    // }
+  }
+
+  &--advanced-search {
+    &::before {
+      background-image: url("#{$image-path}/search-plus.svg");
+    }
+    // .active{
+    //   &::before{
+    //     background-image: url("#{$image-path}/search-plus-green.svg");
+    //   }
+    // }
+  }
+
+  &--company-contacts {
+    &::before {
+      background-image: url("#{$image-path}/address-book-o.svg");
+    }
+    // .active{
+    //   &::before{
+    //     background-image: url("#{$image-path}/address-book-o-green.svg");
+    //   }
+    // }
+  }
+
+  &--audit-trial {
+    &::before {
+      background-image: url("#{$image-path}/address-card-o.svg");
+    }
+    // .active{
+    //   &::before{
+    //     background-image: url("#{$image-path}/address-card-o-green.svg");
+    //   }
+    // }
+  }
+
+  &--setting {
+    &::before {
+      background-image: url("#{$image-path}/cog.svg");
+    }
+    // .active{
+    //   &::before{
+    //     background-image: url("#{$image-path}/cog-green.svg");
+    //   }
+    // }
+  }
+
+  &--lugistics {
+    &::before {
+      background-image: url("#{$image-path}/truck.svg");
+    }
+    // .active{
+    //   &::before{
+    //     background-image: url("#{$image-path}/truck-green.svg");
+    //   }
+    // }
+  }
+  &--keplar {
+    &::before {
+      width: 86px;
+      height: 35px;
+      background-image: url("#{$image-path}/keplar-logo.svg");
+    }
+  }
+
+  &--live {
+    &::before {
+      width: 57px;
+      height: 35px;
+      background-image: url("#{$image-path}/live-logo.svg");
+    }
+  }
+  &--kepler {
+    &::before {
+      width: 86px;
+      height: 35px;
+      background-image: url("#{$image-path}/keplar-logo.svg");
+    }
+  }
+}

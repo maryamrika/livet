@@ -1,0 +1,81 @@
+.cr-login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .container{
+        padding-bottom:80px;
+    }
+    .submit-button{
+        margin-top:23px;
+    }
+    .circle-avatar{
+        width:50px;
+        height:50px;
+        background-color:$lightGray-2;
+        border-radius: 50%;
+        margin-right:15px;
+        margin-top:8px;
+    }
+    .card-header{
+        background-color:$white
+    }
+    .card-footer{
+        background-color:$white
+    }
+    .aplant-logo{
+        width:50px;
+        // height:50px;
+    }
+    .keplar-logo{
+        width: 170px;
+        position: absolute;
+        top:0;
+        right:0;
+        left:0;
+        bottom:0;
+        margin:auto;
+    }
+}
+.phone-system{
+    height: 100vh;
+    display: flex;
+    color:$gray;
+    .live-logo{
+        width: 75px;
+    }
+    .button-wrapper {
+        border-top: 1px solid $navy;
+    }
+    // &--logo{
+    //     padding:30px;
+    //     text-align: center;
+    //     background-color: $navy;
+    //     color: $green;
+    //     border-radius: 5px 5px 0 0;
+    //     img{
+    //         width: 75px;
+    //     }
+    // }
+    // &--inner{
+    //     border-radius: 5px;
+    //     background: #dadada;    
+    //     margin: auto;
+    //     width: 350px;
+    //     &_form{
+    //         padding: 50px 30px;
+    //     }
+    //     input{
+    //         background: #ffffff;
+    //         border:1px solid #cccccc;
+    //         color: #cccccc;
+    //     }  
+    //     .btn-success{
+    //         width: 90%;
+    //         margin: 0 auto;
+    //     }   
+    //     .btn-primary{
+    //         width: 80%;
+    //         margin: 40px auto 0 auto;
+    //     }       
+    // }
+}

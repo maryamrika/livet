@@ -1,0 +1,90 @@
+.cr-header{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background-color: $lightGray-2;
+  font-size: 14px;
+  font-weight: $regular;
+  box-shadow: 0px 0px 2px 0px #BEBEBE;
+  .navbar{
+    background-color: #f7f7f7;
+  }
+  .dropdown-toggle::after{
+    color:$green-75;
+  }
+  .input-group{
+    position: relative;
+    border-radius: 3px;
+    background-color: #E6E6E6;
+    input{
+      border-top-right-radius: 3px!important;
+      border-bottom-right-radius:3px!important;
+    }
+    svg{
+      position: absolute;
+      right: 0;
+      top: 8px;
+      font-size: 23px;
+    }
+  }
+  .btn-success{
+    margin-left: 5px;
+    color: $white;
+    font-weight: $thin;
+  }
+  .nav-link{
+    display: flex;
+    align-items: center;
+  }
+  svg{
+    fill:$green;
+    margin-left: 3px;
+  }
+  a{
+    color:$navy;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  .navbar-brand{
+    padding: 0 20px 0 0;
+    border-right:1px solid rgba($gray,0.5);
+    img{
+      width: 40px;
+    }
+  }
+}
+
+.navbar-toggler-icon{
+  background-image: url("#{$image-path}/menu.svg");
+}
+@include media-breakpoint-down(lg) {
+  .cr-header .border-left{
+    border-left:none!important;
+  }
+  .cr-header .navbar-collapse{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar-nav{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .cr-header .navbar-expand-lg{
+    font-size: 10px;
+    padding: 0;
+  }
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
